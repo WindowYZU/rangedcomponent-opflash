@@ -43,7 +43,7 @@ public class JScrollPane1 {
         JScrollPane scrollPane=new JScrollPane();
         scrollPane.getViewport().add(textArea);
         //試試看將 textArea 或 scrollPane 加入 frame 的區別
-        
+        frame.add(scrollPane);
         ///////////////////////////////////////////////
         frame.setVisible(true);
     }
